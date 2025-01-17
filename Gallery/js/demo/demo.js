@@ -54,7 +54,7 @@ $(function() {
 		
 		
 	  blueimp.Gallery([{
-                title: 'Splash Screen',
+                title: 'Starting Screen',
 				href: 'img/blackjack (1).png',
                 type: 'image/png',
             },
@@ -112,26 +112,78 @@ $(function() {
                 href: 'img/typingapp (4).png',
                 type: 'image/png',
             },
-			 {
-                title: 'The team',
-                href: 'img/typingapp (5).png',
-                type: 'image/jpeg',
-            },
         ], {
             container: '#blueimp-image-carousel2',
             carousel: true,
 			preloadRange: 2
         })
+
+
+
+
+        blueimp.Gallery([{
+            title: 'Demonstration 1',
+            href: 'img/simulation1 (1).png',
+            type: 'image/jpeg',
+        },
+        {
+            title: 'Demonstration 2',
+            href: 'img/simulation1 (2).png',
+            type: 'image/jpeg',
+        },
+         {
+            title: 'Demonstration 3',
+            href: 'img/simulation1 (3).png',
+            type: 'image/jpeg',
+        },
+         {
+            title: 'Demonstration 4',
+            href: 'img/simulation1 (4).png',
+            type: 'image/png',
+        },
+         {
+            title: 'Demonstration 5',
+            href: 'img/simulation1 (5).png',
+            type: 'image/jpeg',
+        },
+    ], {
+        container: '#blueimp-image-carousell',
+        carousel: true,
+        preloadRange: 2
+    })
+
+
+
+
+    blueimp.Gallery([
+        
+        {
+            title: 'Home Screen',
+            href: 'img/robust2.png',
+            type: 'image/jpeg',
+        },    
+        
+        {
+        title: 'Two-Factor authentification screen pop up (Security Card)',
+        href: 'img/security card.png',
+        type: 'image/jpeg',
+    },
+
+], {
+    container: '#blueimp-image-carousel-robust',
+    carousel: true,
+    preloadRange: 2
+})
 		
 		
 		
 		 blueimp.Gallery([{
-               title: 'Splash Screen',
+               title: 'Starting Screen',
                 href: 'img/wop (5).png ',
                 type: 'image/jpeg',
             },
             {
-                title: 'Map Selection ',
+                title: 'Menu Screen ',
                 href: 'img/wopmenu.jpeg',
                 type: 'image/jpeg'
             },
