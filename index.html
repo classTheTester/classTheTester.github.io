@@ -404,6 +404,26 @@
            loading="lazy"></iframe>
        </div>
        
+       <style>
+         #map {
+           width: 100%; /* Makes the container fill the width of the parent */
+           max-width: 1550px; /* Limit the maximum width to 1550px */
+           margin: 20px auto; /* Center the container */
+           position: relative;
+           padding-bottom: 28%; /* Aspect ratio of 16:9 (height is 56.25% of width) */
+         }
+       
+         #map iframe {
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%; /* Fill the container width */
+           height: 100%; /* Fill the container height */
+           border: 0;
+         }
+       </style>
+       
+       
       </div>
    </main>
    
