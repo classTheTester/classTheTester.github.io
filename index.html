@@ -3,7 +3,7 @@
 <head>
    <meta charset=UTF-8>
    <title>Edward Weisberg | Software Engineer</title>
-   <meta content="Computer Science from Toronto, Canada - specializing in Android, C# applications and Hardware Engineering." name=description>
+   <meta content="Computer Science from Toronto, Canada." name=description>
    <meta content="McMaster University, computer vision engineer, software engineer, Edward Weisberg" name=keywords>
    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T8MN8B');</script>
    <link href="http://fonts.googleapis.com/css?family=Open+Sans:700,300,400" rel=stylesheet>
@@ -85,13 +85,26 @@
 			</br>
 			<div class=container style="text-align: center">
 				<div class="d-flex justify-content-between">
-				  <img style="max-width: 12%; padding: 10px;" src="img\companies\falcon.png" alt="Mac Falcons">
-				  <img style="max-width: 24%; padding: 10px;;" src="img\companies\medallion.png" alt="medallion">
-				  <img style="max-width: 24%; padding: 10px;" src="img\companies\mes.jpeg" alt="mes">
-				  <img style="max-width: 12%; padding: 10px;" src="img\companies\qts.jpeg" alt="qts">
+               <a href=https://macrobomaster.com/>
+                  <img style="max-width: 12%; padding: 10px; cursor: pointer;" 
+                       src="img\companies\falcon.png" 
+                       alt="Mac Falcons">
+              </a>
+              
+				  <a href=https://medallioncorp.com/>
+               <img style="max-width: 24%; padding: 10px; cursor: pointer;" src="img\companies\medallion.png" alt="medallion">
+           </a>
+           
+           <a href=https://www.macengsociety.ca/>
+               <img style="max-width: 24%; padding: 10px; cursor: pointer;" src="img\companies\mes.jpeg" alt="mes">
+           </a>
+           
+           <a href=https://www.linkedin.com/company/mcmaster-quantitative-trading-society/posts/?feedView=all>
+               <img style="max-width: 12%; padding: 10px; cursor: pointer;" src="img\companies\qts.jpeg" alt="qts">
+           </a>
 				</div>
 				 <br/>
-                   I have had the opportunity to work at 4 great companies and clubs to hone my tech skills through different avenues. Check out my resume for more information!  
+                   I have had the opportunity to work at 4 great companies and clubs to hone my tech skills through different avenues. Check out my resume/linkedin for more information!  
 			</div>
 			<br/>
 			<br/>
@@ -121,19 +134,17 @@
 
 
                   <div class="portfolio-col description-container">
-                     <h3><a href=http://www.accutrack.me target=_blank>AccuTrack - Microsoft Imagine Cup North American Finalist</a></h3>
+                     <h3><a href=https://devpost.com/software/brewchat target=_blank>BrewChat - AI Interview Assistant</a></h3>
                      <summary><p class=description>
 					 
-                        AccuTrack is an intelligent IOT system that can track the way a blue collar worker moves, while they are working, and determine their risk of ergonomic Injury. We have developed custom built flex sensors that bend with the way a persons limbs moves. These sensors can be attached to clothing at the elbows and knees to track the angles of these limbs. It transmits this data to the cloud in order to recognize risk of repetitive strain injury, overworking, and poor posture. We use Azure IOT to coordinate all of our hardware sensors. The backend includes Azure SQL to save the user data and Azure App Service with a Machine Learning pipline to process the information to provide ergonomic insights. The web portal is currently live at <a target=_blank href="http://www.accutrack.me">accutrack.me</a>.  	
+                        BrewChat is an application that provides a summary, keypoints and questions to ask interviewers during coffee chats to aid the interviewee. 	
 					 
 					 </summary><br/><ul class=skills>
-					   <li>Tensorflow/ML</li>
-                  <li>Azure IOT</li>
-                  <li>Azure App Service</li>
-                  <li>Azure Notification Hub</li>
-					   <li>Python</li>
-					   <li>Android</li>
-					   <li>Electrical Circuits</li>
+					   <li>API Interfacing</li>
+                  <li>Python</li>
+                  <li>Flask</li>
+                  <li>HTML/CSS</li>
+					   <li>AssemblyAI</li>
 
                      </ul>
 					  
@@ -168,27 +179,12 @@
 
 
                   <div class="portfolio-col description-container">
-                     <h3><a href=http://www.danielweisberg.com/seeme target=_blank>SeeMe - Microsoft Imagine Cup Canadian Finalist</a></h3>
-                     <summary><p class=description>
-					 
-					 	The SeeMe project uses hardware sensors, Azure, and Xamarin to track elderly in their home to determine if there might be a problem. It uses custom hardware
-						sensors in order to track the location of the person in the house and sends this information to a Python Flask app running in Azure. The app saves this data
-						to an Azure SQL DB including the room entered, the time entered at, and how long they stay there. The Python app regularly uses this information to retrain a 
-						Tensorflow model which predicts how long a person will stay in a room. If they stay too long, the system sends an alert to the caretakers mobile phone saying that 
-						there might be a problem. The system also finds concerning movement that my be early onset of dementia, insomnia, and other conditions.
-						<br/><br/>
-						A more descriptive explination can be found in the competition submission document <a href="./seeme.pdf">here</a>
-					 
-					 </summary><br/><ul class=skills>
+                     <h3><a href=https://github.com/classTheTester/School-Projects/tree/main/blackJack/Pygame-BlackJack target=_blank>BlackJack Game</a></h3>
+                     <summary><p class=description>Simple BlackJack game using Pygame with animations </p>
+                     </summary><ul class=skills>
                     
-					 <!--<summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech</summary><br/><ul class=skills>
-                       --> 
-					   <li>Tensorflow/ML</li>
-					   <li>Azure</li>
 					   <li>Python</li>
-					   <li>C++</li>
-					   <li>Electrical Circuits</li>
-						<li>Hardware Design</li>
+                  <li>Pygame</li>
 
                      </ul>
 					  
@@ -209,7 +205,7 @@
                   <div class="portfolio-col screenshot">
 				  
 				  
-				  <div id="blueimp-image-carousel-genomify" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
+				  <div id="blueimp-image-carousel-robust" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
 					<div class="slides"></div>
 					<h3 class="title"></h3>
 					<a class="prev">‹</a>
@@ -223,24 +219,24 @@
 
 
                   <div class="portfolio-col description-container">
-                     <h3><a href=https://devpost.com/software/genomify-knzy6w target=_blank>Genomify - GenomeLink Hackathon (2nd Place)</a></h3>
+                     <h3><a href=https://github.com/classTheTester/MACENG-2024-ROBUST target=_blank>Ro-Bust Security</a></h3>
                      <summary><p class=description>
 					 
-					 	Genomify is a user friendly mobile app that leverages the GenomeLink API to make learning about your genome more interesting.
-						GenomeLink API allows for users to upload their genome data and exposes a variety of information about it including likelihood of diabetes,
-						endurance, etc. My app 'Genomify' allows users to take a picture of their surroundings which is then processed by Google Vision API. The
-						objects of interest that Google Vision finds is then related to your genome. For instance, taking a picture of a treadmill would show your genome
-						information on endurance, a picture of a cake shows your likelihood of diabetes, etc. 
+					 	Ro-Bust Security is a registration application that can be seamlessly implemented with any website. Passwords are kept secure utilizing SHA-256 encryption and processed Faces for Face ID cannot be accessed even when leaked due to the utilization of image cloaking. A further measure is implemented via security card authentification where a user can provide images of any object of their liking to be used in two-step authentification.  
 						<br/><br/>
 					 
 					 </summary><br/><ul class=skills>
                     
 					 <!--<summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech</summary><br/><ul class=skills>
                        --> 
-					   <li>Google Vision</li>
-					   <li>Android</li>
+					   <li>SQL</li>
+					   <li>Encryption</li>
 					   <li>Python</li>
-					   <li>GenomeLink API</li>
+                  <li>Flask</li>
+					   <li>CSS/HTML</li>
+                  <li>Image Cloaking</li>
+                  <li>Machine Learning (YOLO)</li>
+
 
                      </ul>
 					  
@@ -263,7 +259,7 @@
                   <div class="portfolio-col screenshot">
 				  
 				  
-				  <div id="blueimp-image-carousel12" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
+				  <div id="blueimp-image-carousell" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
 					<div class="slides"></div>
 					<h3 class="title"></h3>
 					<a class="prev">‹</a>
@@ -277,22 +273,19 @@
 
 
                   <div class="portfolio-col description-container">
-                     <h3><a href=https://www.vaughan.ca/business/vaughan_business_enterprise_centre/youth_entrepreneurship/General%20Documents/Summer%20Company%20Directory%202014/SC%20Pamphlet.pdf#page=8 target=_blank>EzBot Microcontroller</a></h3>
+                     <h3><a href=https://github.com/classTheTester/Implications-Of-Time-Delay-And-Hype-Factors-On-Equilibrium-Prices target=_blank>Ordinary Differential Equations Prices Simulation</a></h3>
 
-					 <summary><p class=description>EzBot is a microcontroller and software package I developed over the course of 3 years. EzBot has pins to connect multiple servos, lights, speakers and sensors. Without any programming, users can use the EzBot mobile app to wirelessly control all of the hardware they connected to the board. This is done using the built-in drag-n-drop layout creator within the app. The EzBot app also hosts a server that allows the phone to become part of the robot and connect to another phone or computer on the WiFi. A python and C# library was also developed for more advanced control of the EzBot.
+					 <summary><p class=description>A program created to demonstrate the effect time delay and other factors have on equilibrium prices of general commodity goods. The code is paired with a report that outlines findings, demonstrations and conclusions. Created using Range-Kutta approximations in C++ and optimized to work efficiently on Unix-based servers. 
                     </summary>
 					 <!--<summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech</summary><br/><ul class=skills>
                        --> 
 					   <br/><ul class=skills>
-					   <li>Electrical Circuits</li>
-						<li>Hardware Design</li>
-						<li>Soldering</li>
-						<li>Kicad</li>
-						<li>Python</li>
-                        <li>C#</li>
-						<li>Android</li>
-						<li>Bluetooth API</li>
-						<li>Local WiFi Communication</li>
+					   <li>C++/C</li>
+						<li>Runge-Kutta Approximation</li>
+						<li>PGPLOT</li>
+						<li>Makefile</li>
+                  <li>Unix</li>
+
                      </ul>
 					  
                   </div>
@@ -305,238 +298,7 @@
 	  
 	  
 	  
-	  
-	  	<div class=row id=arm>
-            <div class=container>
-               <div class="cf portfolio-item">
-                  <div class="portfolio-col screenshot">
-				  
-				  
-				  <div id="blueimp-image-carousel11" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  
-				  </div>
 
-
-                  <div class="portfolio-col description-container">
-                     <h3><a href=https://www.youtube.com/watch?v=8R_WXlFHCQs&t=1s target=_blank>EzBot powered robotic arm</a></h3>
-                     <summary><p class=description>This 6 degree-of-freedom robotic arm with motorized wheels, distance sensor, and moving camera jig is fully controlled by an EzBot. The EzBot wirelessly connects to the computer over WiFi using the phone as a middle-man communicator. Another EzBot is connected to 3 potentiometers which track the movement of a model arm and simulate it on the robot. This project was made to test the capabilities of EzBot. In fact, the robot required under 150 lines of code!</summary><br/><ul class=skills>
-                    
-					 <!--<summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech</summary><br/><ul class=skills>
-                       --> 
-					   <li>Electrical Circuits</li>
-						<li>Hardware Design</li>
-						<li>Python</li>
-                        <li>UDP</li>
-                     </ul>
-					  
-                  </div>
-               </div>
-            </div>
-            <div class=separator></div>
-         </div>
-	  
-	  
-	  
-	  
-	  	<div class=row id=arm>
-            <div class=container>
-               <div class="cf portfolio-item">
-                  <div class="portfolio-col screenshot">
-				  
-				  
-				  <div id="blueimp-image-carousel31" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  
-				  </div>
-
-
-                  <div class="portfolio-col description-container">
-                     <h3>Automation Anywhere Hackathon</h3>
-                     <summary><p class=description>The Automation Anywhere hack was created to help deliveries go more smoothly during Covid-19. It worked by creating a unique shipping code for every package. When a package was deliveried, the driver would take a picture of the package, then send it as an email to the delivery company. The email would then be parsed on the recieving end to extract the delivery code, as well 
-as the delivery location from the image metadata. It would make sure this delivery location was correct according to the customer order spreadsheet. If its correct, it would send this image to the customer saying their order shipment was complete. If not, it would send an email to the delivery driver with an alert that the delivery was not done correctly. All of this would be updated live on the customer orders spreadsheet. 
-</summary><br/><ul class=skills>
-
-					   <li>OCR</li>
-						<li>Python</li>
-						<li>Automation Anywhere</li>
-                     </ul>		  
-                  </div>
-               </div>
-            </div>
-            <div class=separator></div>
-         </div>
-	  
-	  
-	  
-	  
-	  
-	  
-	  	 		 		   <div class=row id=envr>
-            <div class=container>
-               <div class="cf portfolio-item">
-                  <div class="portfolio-col screenshot">
-				  
-				  
-				  <div id="blueimp-image-carousel13" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  
-				  </div>
-
-
-                  <div class="portfolio-col description-container">
-                     <h3><a href=http://www.ENVR.io target=_blank>ENVR - Velocity Fund Finalist</a></h3>
-                     <summary><p class=description>
-					 ENVR is a small device that attaches to a VR headset and pairs through Bluetooth to the phone within the VR. 
-					 It contains vibration motors, fans, and a mist generator in order to replicate the Virtual Reality experience 
-					 that you are in. We have created demos using popular 360 videos as well as an API for developers. ENVR is the
-					 product of a startup company I am making with a co-founder. 
-					 <br/><br/>
-					 
-					Velocity wrote an article about us <a href="http://velocity.uwaterloo.ca/2017/02/building-a-startup-inside-a-dorm-room/">here</a>!
-
-					 
-					 </summary><br/><ul class=skills>
-                    
-					 <!--<summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech</summary><br/><ul class=skills>
-                       --> 
-					   <li>Unity</li>
-					   <li>C#</li>
-					   <li>Solidworks</li>
-						<li>Electronic Circuits</li>
-						<li>NRF51 Series</li>
-                        <li>Arduino Pro Mini</li>
-						
-						<li>HC-06</li>
-						<li>Soldering</li>
-                     </ul>
-					  
-                  </div>
-               </div>
-            </div>
-            <div class=separator></div>
-         </div>
-	  
-	  
-	  
-	  
-	  
-	    <div class=row id=genesys>
-            <div class=container>
-               <div class="cf portfolio-item">
-                  <div class="portfolio-col screenshot">
-				  
-				  <div id="hack-genesys" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  </div>
-                  <div class="portfolio-col description-container">
-                     <div class=cf>
-                        <div class=project-title>
-                           <h3><a>Emotion Tracker - Genesys Hackathon (1st Place)</a></h3>
-                        </div>
-                       
-                     </div>
-                     <!--<summary><p class=description>Roambot was a project I completed for Local Hack Day at York University in 8 hours. The robot was controlled by a person's movement which were detected by an Xbox Kinect. The Kinect attached to my laptop which identified the gesture using the C# Kinect Lib. The computer sent the robot's command over WiFi via UDP to an Android phone that was sitting on the robot. The Android then sent the same instruction over Bluetooth to the Arduino which controlled the motors to drive. Simultaneously, the Android used a 3rd party app to stream video from the back camera to show the front of the robot. This allowed me to control the robot from anywhere within the building where the WiFi reached. I managed to get 1st Place and worked independently.</p>
-                     -->
-					 <summary><p class=description>For the Genesys Hackathon we decided to create an application that performs facial and emotion tracking for client-representitive video calls. The benefit of this application was to ensure that the customer was not confused or angry during a call, track customer information (age, gender), and notify the supervisor if the customer was getting upset. We used Mircosoft's Face/Emotion API and fed it screenshots from the video call as Genesys did not support 3rd party video monitoring. The emotion/facial tracking results were then sent to Firebase which was pulled from a web app that displayed all of the information in tables and graphs.</p>
-                     
-					 </summary><br/><ul class=skills>
-						<li >Genesys API</li>
-                        <li >Emotion API</li>
-                        <li>Face API</li>
-						<li>Firebase</li>
-						<li>C#</li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <div class=separator></div>
-         </div>
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-         <div class=row id=lassonde>
-            <div class=container>
-               <div class="cf portfolio-item">
-                  <div class="portfolio-col screenshot">
-				  
-				  <div id="hack-lassonde" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  </div>
-                  <div class="portfolio-col description-container">
-                     <div class=cf>
-                        <div class=project-title>
-                           <h3><a>RoamBot - Hack Lassonde<br>(1st Place)</a></h3>
-                        </div>
-                       
-                     </div>
-                     <!--<summary><p class=description>Roambot was a project I completed for Local Hack Day at York University in 8 hours. The robot was controlled by a person's movement which were detected by an Xbox Kinect. The Kinect attached to my laptop which identified the gesture using the C# Kinect Lib. The computer sent the robot's command over WiFi via UDP to an Android phone that was sitting on the robot. The Android then sent the same instruction over Bluetooth to the Arduino which controlled the motors to drive. Simultaneously, the Android used a 3rd party app to stream video from the back camera to show the front of the robot. This allowed me to control the robot from anywhere within the building where the WiFi reached. I managed to get 1st Place and worked independently.</p>
-                     -->
-					 <summary><p class=description>Roambot was a project I completed for Local Hack Day at York University in 8 hours. The robot was controlled by a person's movement which were detected by an Xbox Kinect. The computer sent the Kinect's command using UDP to an Android phone that was sitting on the robot. The Android then sent the same instruction over Bluetooth to the Arduino which controlled the motors to drive while also streaming video of what the robot sees back to the computer (video was 3rd party). Worked independently.</p>
-                     
-					 </summary><br/><ul class=skills>
-
-                        <li >Kinect API</li>
-                        <li>Arduino</li>
-						<li>Bluetooth API (C# & Android Java)</li>
-						<li>UDP Protocol</li>
-						<li>C#</li>
-                 
-						<li>Java</li>
-                        <li>C++</li>
-                        
-                        <li>Electrical Circuits</li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <div class=separator></div>
-         </div>
 		 
 		 
 	
@@ -560,285 +322,17 @@ as the delivery location from the image metadata. It would make sure this delive
 
 
                   <div class="portfolio-col description-container">
-                     <h3><a href=https://americas.thecisconetwork.com/site/content/lang/en/id/6758?utm_content=bufferf90cf&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer  target=_blank>TD Strip - Finhacks<br>(1st Place)</a></h3>
-                     <summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. Users used our chatbot to develop a savings goal which was then displayed on an Apple Smartwatch, Website and the hardware "Strip" with LEDs. Tapping the Android phone to the NFC chip on the Strip would prompt the Strip to blink a pattern and verbally say your current savings balance using the phone inside of it. When reaching your goal, the Strip verbally congratulates and displays a unique LED pattern. Worked with 5 other members. Focused on hardware, server-hardware communication, text to speech.</summary><br/><ul class=skills>
-                    
-					 <!--<summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech</summary><br/><ul class=skills>
-                       --> <li>Arduino</li>
-						<li>Esp8266 WiFi Chip</li>
-						<li>Firebase</li>
-                        <li>Text-to-Speech API</li>
-
-						<li>NFC API</li>
-						<li>NFC Tag</li>
-						<li>UDP</li>
-						<li>Java</li>
-						<li>C++</li>
-						<li>Electrical Circuitry</li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <div class=separator></div>
-         </div>
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		<div class=row>
-            <div class=container>
-               <div class="cf portfolio-item">
-                  <div class="portfolio-col screenshot">
-				  
-				  
-				  <div id="cutc" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  
-				  </div>
-
-
-                  <div class="portfolio-col description-container">
-                     <h3>CUTC Hackathon (1st Place)<br></a></h3>
-                     <summary><p class=description>Used an existing website template to create a used furniture inventory management system. Made a non-native Android application that loaded up the mobile version of the website. </summary><br/><ul class=skills>
-                    
-					 <!--<summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech</summary><br/><ul class=skills>
-                       -->
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <div class=separator></div>
-         </div>
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		          <div class=row>
-            <div class=container>
-               <div class="cf portfolio-item">
-                  <div class="portfolio-col screenshot">
-				  
-				  <div id="dementiahack" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  </div>
-                  <div class="portfolio-col description-container">
-                     <div class=cf>
-                        <div class=project-title>
-                           <h3><a>Dispensebot - Dementia Hacks</a></h3>
-                        </div>
-                       
-                     </div>
-                     <!--<summary><p class=description>Roambot was a project I completed for Local Hack Day at York University in 8 hours. The robot was controlled by a person's movement which were detected by an Xbox Kinect. The Kinect attached to my laptop which identified the gesture using the C# Kinect Lib. The computer sent the robot's command over WiFi via UDP to an Android phone that was sitting on the robot. The Android then sent the same instruction over Bluetooth to the Arduino which controlled the motors to drive. Simultaneously, the Android used a 3rd party app to stream video from the back camera to show the front of the robot. This allowed me to control the robot from anywhere within the building where the WiFi reached. I managed to get 1st Place and worked independently.</p>
-                     -->
-					 <summary><p class=description>I created Dispensebot at the 2017 Dementia Hacks hosted in Toronto's MaRS center with three other team members. The purpose of the project was to automate the process of providing medicine to those with dementia that live in group homes. The hole in the front cover is where the phone sat and acted as an interactive display that showed the amount of pills and any information about a patient. The pill dispenser connected online and provided a notification on the screen when it was time to dispense somebody's pill. We made a web portal for doctors to use in order to update the medication remotely which would be updated in the dispensebot real-time.</p>
-                     
-					 </summary><br/><ul class=skills>
-
-
-                        <li>Arduino</li>
-						<li>Android Bluetooth API</li>
-						<li>UDP Protocol</li>                 
-						<li>Java</li>
-                        <li>C++</li>
-                        <li>Electrical Circuits</li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <div class=separator></div>
-         </div>
-		 
-		 
-		 
-		 
-		 
-		 
-		  
-		  <div class=row>
-            <div class=container>
-               <div class="cf portfolio-item" >
-                  <div class="portfolio-col screenshot"  style="height:1500">
-				  
-				  
-				  <div id="blueimp-image-carousel5" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  
-				  </div>
-
-
-                  <div class="portfolio-col description-container">
-                     <h3><a href=http://www.tendertool.io  target=_blank>TenderTool</a></h3>
-                     <summary><p class=description>TenderTool is a mobile application that allows building managers and contractors to safely and efficiently fill work orders. A building manager creates a tender (task) which includes images, dimensions, task required and contractors that they would like to work with. Contractors can then see these tasks and provide a bid. This application is being developed in conjunction with a building manager in order to improve the current workflow of handling tenders as well as to conform to the amendments with the Ontario Condominium Act.</summary><br/><ul class=skills>
-                    
-					 <!--<summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech</summary><br/><ul class=skills>
-                       --> <li>Java</li>
-					   <li>XML</li>
-						<li>Firebase</li>
-						<li>AsyncTask</li>
-                        <li>Fragment Manager</li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <div class=separator></div>
-         </div>
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		  <div class=row>
-            <div class=container>
-               <div class="cf portfolio-item">
-                  <div class="portfolio-col screenshot">
-				  
-				  
-				  <div id="blueimp-image-carousel4" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  
-				  </div>
-
-
-                  <div class="portfolio-col description-container">
-                     <h3><a href=https://play.google.com/store/apps/details?id=cryptraider.dwapplications&hl=en  target=_blank>Crypt Raider</a></h3>
-                     <summary><p class=description>Crypt Raider is an Android app that I developed based on my favourite flash game of the same name. The point of the game is to get the mummy to put the orbs into the teleportation device to escape. There are many obstacles in the way including exploding TNT, quicksand, locks with keys, and an explorer trying to catch you. This app was developed completely from scratch other then a few assets and basic libraries (gameview control, vibration lib, page scroll, etc) using B4a - a Visual Basics to Java translator.</summary><br/><ul class=skills>
-                    
-					 <!--<summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech</summary><br/><ul class=skills>
-                       --> <li>B4A</li>
-						<li>Gameview</li>
-						<li>XML</li>
-                        <li>Photoshop</li>
-						<li>Skill: Animation</li>
-						<li>Skill: Runtime efficiency</li>
-                     </ul>
-					  
-                  </div>
-               </div>
-            </div>
-            <div class=separator></div>
-         </div>
-		 
-		 
-		 
-		 
-		  <div class=row>
-            <div class=container>
-               <div class="cf portfolio-item" >
-                  <div class="portfolio-col screenshot"  style="height:1500">
-				  
-				  
-				  <div id="blueimp-image-carousel6" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  
-				  </div>
-
-
-                  <div class="portfolio-col description-container">
-                     <h3><a href=https://github.com/danw5050/CryptRaider-levelgen  target=_blank>Crypt Raider Level Creator</a></h3>
-                     <summary><p class=description>In order to be able to create levels for the Crypt Raider I developed a python application that allowed for a drag and drop interface. The program then exported a file that would be read by the app.</summary><br/><ul class=skills>
-                    
-					 <!--<summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech</summary><br/><ul class=skills>
-                       --> <li>Python</li>
-					   <li>Pygames</li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <div class=separator></div>
-         </div>
-		 
-		 
-		 
-		 
-		 		   <div class=row>
-            <div class=container>
-               <div class="cf portfolio-item">
-                  <div class="portfolio-col screenshot">
-				  
-				  
-				  <div id="blueimp-image-carousel8" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  
-				  </div>
-
-
-                  <div class="portfolio-col description-container">
-                     <h3><a href=https://play.google.com/store/apps/details?id=danielweisbergapps.microphone&hl=en  target=_blank>Speech to Clipboard</a></h3>
-                     <summary><p class=description>Speech to Clipboard performs multiple actions using speech recognition. Swiping up from the home menu would launch the app which would immediately start listening. Users are able to copy their dictation to the phone clipboard, dictate text from the clipboard, perform arithmatics, open apps, search online/Google Play/Youtube, etc. I get many emails from people that have suffered a stroke or are visually impaired that mention how well this app has helped them use their phone :)</summary><br/><ul class=skills>
+                     <h3><a href=https://github.com/classTheTester/School-Projects/tree/main/typingGame  target=_blank>Typify<br></a></h3>
+                     <summary><p class=description>Minimalistic typing app with multiple modes and in house score saving system </summary><br/><ul class=skills>
                     
 					 <!--<summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech</summary><br/><ul class=skills>
                        --> 
-					   <li>Android</li>
-						<li>Speech Recognition</li>
-						<li>Clipboard Access API</li>
-                        <li>Widget</li>
+						
+
+						<li>Python</li>
+						<li>JSON</li>
+						<li>Tkinter </li>
                      </ul>
-					  
                   </div>
                </div>
             </div>
@@ -848,178 +342,7 @@ as the delivery location from the image metadata. It would make sure this delive
 		 
 		 
 		 
-		 
-		 
-		 
-		 
-		 
-		 
-
-		 
-		 
-		 
-		 
-		 
-		   <div class=row>
-            <div class=container>
-               <div class="cf portfolio-item">
-                  <div class="portfolio-col screenshot">
-				  
-				  
-				  <div id="blueimp-image-carousel7" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  
-				  </div>
-
-
-                  <div class="portfolio-col description-container">
-                     <h3><a href=https://play.google.com/store/apps/details?id=appshortcutfree.danielweisbergapps&hl=en  target=_blank>Quickstart App</a></h3>
-                     <summary><p class=description>Quickstart is an application that I developed in order to make accessing applications easier and personalized. Users were able to create a custom notification including editing the text size/colour, background colour and icon. By pressing the notification, users could launch an application or open a folder which contained a group of apps.</summary><br/><ul class=skills>
-                    
-					 <!--<summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech</summary><br/><ul class=skills>
-                       --> 
-					   <li>Android</li>
-						<li>Notifications API</li>
-						<li>XML</li>
-                        <li>Widget</li>
-						<li>Service</li>
-                     </ul>
-					  
-                  </div>
-               </div>
-            </div>
-            <div class=separator></div>
-         </div>
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 		 		   <div class=row>
-            <div class=container>
-               <div class="cf portfolio-item">
-                  <div class="portfolio-col screenshot">
-				  
-				  
-				  <div id="blueimp-image-carousel10" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  
-				  </div>
-
-
-                  <div class="portfolio-col description-container">
-                     <h3><a href=https://play.google.com/store/apps/details?id=danielweisbergapps.touchless&hl=en  target=_blank>Touchless+</a></h3>
-                     <summary><p class=description>Touchless+ is an application that turns on your phone by hovering your hand over it or swiping above it. It runs a service in the background that watches for a change in the proximity sensor and turns on the phone screen. The app displays a background relevant to the time of day as well as the time, date and battery status/charge.</summary><br/><ul class=skills>
-                    
-					 <!--<summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech</summary><br/><ul class=skills>
-                       --> 
-					   <li>Android</li>
-						<li>Sensor</li>
-						<li>Wake_Locks</li>
-                        <li>Sticky Service</li>
-                     </ul>
-					  
-                  </div>
-               </div>
-            </div>
-            <div class=separator></div>
-         </div>
-		 
-		 
-		 
-		    <div class=row>
-            <div class=container>
-               <div class="cf portfolio-item">
-                  <div class="portfolio-col screenshot">
-				  
-				  
-				  <div id="blueimp-image-carousel15" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  
-				  </div>
-
-
-                  <div class="portfolio-col description-container">
-                     <h3><a href=https://www.youtube.com/watch?v=GnszItg18XM  target=_blank>Passcode door opener</a></h3>
-                     <summary><p class=description>During highschool I frequently visited the school's computer engineering lab, but usually found it locked. As my final project, I decided to fix that by installing a touchpad on the outside of the door that allowed only myself and a few close friends to enter the lab with a code. The keypad connected to the Arduino which verified the code and engaged a servo to pull the door handle up and play a song. We installed a camera to see who tried to enter the combination incorrectly and generated an image using a Python program. We found janitors, teachers, and the occasional frosh trying to crack the code!</summary><br/><ul class=skills>
-                    
-					 <!--<summary><p class=description>The TD Strip was a project developed for the TD - Cisco hackathon which focused on solutions that helped clients with financial decisions. The TD Strip solutions included the hardware Strip, website, chatbot and smartwatch and targeted children. Children create a savings goal using the chatbot on their phone which would displayed on both their smartwatch and our website. The hardware Strip would also display the progress with LEDs. Tapping the Android phone to the NFC chip at the top of the Strip would prompt the Strip to verbally say your current balance using a phone inside of it while blinking LEDs. When reaching your goal, the hardware Strip would verbally congratulate you and show a unique LED pattern. Worked with 5 other members and managed to place first. Focused on hardware, server-hardware communication, text to speech</summary><br/><ul class=skills>
-                       --> 
-					   <li>Python</li>
-						<li>Arduino</li>
-						<li>Webcam Lib</li>
-                     </ul>
-					  
-                  </div>
-               </div>
-            </div>
-            <div class=separator></div>
-         </div>
-		 
-		 
-		 
-		 
-		 
-		 
-		 <div class=row>
-            <div class=container>
-               <div class="cf portfolio-item">
-                  <div class="portfolio-col screenshot">
-				  
-				  
-				   <div id="blueimp-image-carousel14" class="blueimp-gallery blueimp-gallery-carousel  blueimp-gallery-controls">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
-				  
-				  
-				  </div>
-                  <div class="portfolio-col description-container">
-                     <h3>Large Robotic Arm</h3>
-                     <summary><p class=description>This robotic arm project was probably the largest physical robot I have ever created. It reached 1.5m long fully extended and 1 m high! When I made this robot I only knew how to program 1 platform, the Boe Bot, which supported only 2 servos. This prompted me to created a switch system for the two servos that allowed me to control a lot more motors in the project. The robotic arm has 4 DOF and rotated on the spot because of the mechanism I implemented for steering.</p>
-                     </summary><br/><ul class=skills>
-                        <li>Boe Bot</li>
-                        <li>Electrical Circuitry</li>
-                        <li>Hardware Design</li>
-                     </ul>
-					
-                  </div>
-               </div>
-            </div>
-         </div>
-		 
-		 
-		 
-		 
-		 
-		 	 
+	 
 		 
 		 
 		 
@@ -1041,12 +364,11 @@ as the delivery location from the image metadata. It would make sure this delive
 				  
 				  </div>
                   <div class="portfolio-col description-container">
-                     <h3><a href=https://imgur.com/a/IpBef target=_blank>Bluetooth Traffic Light</a></h3>
-                     <summary><p class=description>The traffic light is able to connect through Bluetooth to an Android phone. The user is able to control the light combination with toggle buttons in the app. Inside of the traffic light was a AC-to-5V-DC 1A phone charger, an Arduino Pro Mini with Bluetooth, and 3 relays for each light.</p>
+                     <h3><a href=https://stabl.rocks/ShowModulePublish?modulePublishId=3d49dd77-4559-4ad0-8673-d737b01825fa target=_blank>War Of Pets</a></h3>
+                     <summary><p class=description>Game implemented utilizing a function programming language (ELM) .</p>
                      </summary><br/><ul class=skills>
-                        <li>Java</li>
-                        <li>Arduino</li>
-                        <li>HC-06 Module</li>
+                        <li>Functional Programming</li>
+                        <li>Kinematics Simulation</li>
                      </ul>
 					
                   </div>
@@ -1072,13 +394,36 @@ as the delivery location from the image metadata. It would make sure this delive
             </div>
          </div>
 		 -->
-         <div class=row id=contactMap>
-            <div class=map-offset>
-               <div id=map-canvas>
-			   
-			   </div>
-            </div>
-         </div>
+       <div id="map">
+         <iframe 
+           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2807.162043752432!2d-79.92227522396203!3d43.26135057112342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c84ac44f72ac1%3A0x399e00ea6143011c!2sMcMaster%20University!5e1!3m2!1sen!2sca!4v1737079856866!5m2!1sen!2sca" 
+           width="1550" 
+           height="450" 
+           style="border:0;" 
+           allowfullscreen="" 
+           loading="lazy"></iframe>
+       </div>
+       
+       <style>
+         #map {
+           width: 100%; /* Makes the container fill the width of the parent */
+           max-width: 1550px; /* Limit the maximum width to 1550px */
+           margin: 20px auto; /* Center the container */
+           position: relative;
+           padding-bottom: 28%; /* Aspect ratio of 16:9 (height is 56.25% of width) */
+         }
+       
+         #map iframe {
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%; /* Fill the container width */
+           height: 100%; /* Fill the container height */
+           border: 0;
+         }
+       </style>
+       
+       
       </div>
    </main>
    
@@ -1101,7 +446,7 @@ as the delivery location from the image metadata. It would make sure this delive
 			   <a href=http://ca.linkedin.com/in/edward-weisberg/ target=_blank>
 			   <span class=icon-linkedin></span></a>
 			   
-			   <a href=mailto:contact@DanielWeisberg.com>
+			   <a href=mailto:edwardweisberg0@gmail.com>
 			   <span class=icon-email></span>
 			   </a>
 			   </div>
@@ -1116,7 +461,7 @@ as the delivery location from the image metadata. It would make sure this delive
                   <div class=pull-right><input type=submit class=button value=send></div>
                </form>-->
 			   
-			   <form method="POST" action="https://formspree.io/f/xjvqjkyl" name=contact-form id=contact-form>
+			   <form method="POST" action="https://formspree.io/f/xrbbvejo" name=contact-form id=contact-form>
 				<input type="text" name="name" placeholder="Name" required>				 
 				 <input type="email" name="email" placeholder="Email" required>
 				  <input type="text" name="phone" placeholder="Phone">
