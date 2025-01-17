@@ -123,27 +123,27 @@ $(function() {
 
         blueimp.Gallery([{
             title: 'Demonstration 1',
-            href: 'img/simulation1 (1).png',
+            href: 'img/simulation1 (9).png',
             type: 'image/jpeg',
         },
         {
             title: 'Demonstration 2',
-            href: 'img/simulation1 (2).png',
+            href: 'img/simulation1 (6).png',
             type: 'image/jpeg',
         },
          {
             title: 'Demonstration 3',
-            href: 'img/simulation1 (3).png',
+            href: 'img/simulation1 (10).png',
             type: 'image/jpeg',
         },
          {
             title: 'Demonstration 4',
-            href: 'img/simulation1 (4).png',
+            href: 'img/simulation1 (13).png',
             type: 'image/png',
         },
          {
             title: 'Demonstration 5',
-            href: 'img/simulation1 (5).png',
+            href: 'img/simulation1 (14).png',
             type: 'image/jpeg',
         },
     ], {
