@@ -51,6 +51,40 @@ $(function() {
     })
 
 
+
+                // Initialize the Gallery as image carousel:
+       
+		
+
+        blueimp.Gallery([
+
+            {
+                title: 'Main Page',
+                href: 'img/easychartMainMenu.png',
+                type: 'image/png',
+            },
+            
+            
+        {
+            title: 'Chart page',
+            href: 'img/easychartgraphmenu.png',
+            type: 'image/png',
+        },
+        {
+            title: 'Editing page',
+            href: 'img/Screenshot 2025-06-12 042802.png',
+            type: 'image/png',
+        }
+
+    ], {
+        container: '#blueimp-image-carousel-easyChart',
+        carousel: true,
+        startSlideshow: true,
+        preloadRange: 2
+        
+    })
+
+
 		
 		
 	  blueimp.Gallery([{
