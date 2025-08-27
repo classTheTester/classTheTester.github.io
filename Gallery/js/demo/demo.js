@@ -13,6 +13,53 @@ $(function() {
     'use strict'
   
             // Initialize the Gallery as image carousel:
+
+
+        blueimp.Gallery([
+
+            {
+                title: 'CRM Integration',
+                href: 'img/hubspot integration.png',
+                type: 'image/png',
+            },
+            
+            
+        {
+            title: 'Dashboard',
+            href: 'img/clientD.png',
+            type: 'image/png',
+        },
+        {
+            title: 'Prospects page',
+            href: 'img/clientP.png',
+            type: 'image/png',
+        },
+        
+        {
+            title: 'Prospect Dossier',
+            href: 'img/dside.png',
+            type: 'image/png',
+        },
+
+        {
+            title: 'Payment Processing with Stripe',
+            href: 'img/paymentprocessing.png',
+            type: 'image/png',
+        },
+
+         {
+            title: 'Registration Page',
+            href: 'img/login page.png',
+            type: 'image/png',
+        }
+
+    ], {
+        container: '#blueimp-image-carousel-nigga',
+        carousel: true,
+        startSlideshow: true,
+        preloadRange: 2
+        
+    })
        
 		
 
