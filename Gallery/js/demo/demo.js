@@ -60,7 +60,38 @@ $(function() {
         preloadRange: 2
         
     })
-       
+      
+    
+
+
+    blueimp.Gallery([
+
+            {
+                title: 'Home Page',
+                href: 'img/barcoded1.png',
+                type: 'image/png',
+            },
+            
+            
+        {
+            title: 'Product',
+            href: 'img/barcoded2.png',
+            type: 'image/png',
+        },
+        {
+            title: 'About',
+            href: 'img/barcoded3.png',
+            type: 'image/png',
+        }   
+        
+
+    ], {
+        container: '#blueimp-image-carousel-nigga2',
+        carousel: true,
+        startSlideshow: true,
+        preloadRange: 2
+        
+    })
 		
 
         blueimp.Gallery([
