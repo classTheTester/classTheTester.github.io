@@ -15,6 +15,52 @@ $(function() {
             // Initialize the Gallery as image carousel:
 
 
+        
+
+         blueimp.Gallery([
+
+            {
+                title: 'Artist Judging Platform (For dataset pipeline)',
+                href: 'img/artlingo(1).png',
+                type: 'image/png',
+            },
+            
+            
+        {
+            title: 'Demonstration on simple drawing',
+            href: 'img/artlingo(2).png',
+            type: 'image/png',
+        },
+        {
+            title: 'Demonstration on styled object drawing',
+            href: 'img/artlingo(3).png',
+            type: 'image/png',
+        },
+
+        {
+            title: 'Demonstration on styled portrait drawing',
+            href: 'img/artlingo(5).png',
+            type: 'image/png',
+        },
+
+        {
+            title: 'Model prediction grid based on artist vote',
+            href: 'img/artlingo(4).png',
+            type: 'image/png',
+        }
+
+
+    ], {
+        container: '#blueimp-image-carousel-artlingo',
+        carousel: true,
+        startSlideshow: true,
+        preloadRange: 2
+        
+    })
+
+
+
+
         blueimp.Gallery([
 
             {
