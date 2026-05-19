@@ -68,6 +68,27 @@ $(function() {
                 href: 'img/hubspot integration.png',
                 type: 'image/png',
             },
+
+
+        
+             {
+                title: 'Hubspot User View with MonitorIntent Contacts',
+                href: 'img/monitorintentcontacts (1).png',
+                type: 'image/png',
+            },
+
+
+         {
+                title: 'MonitorIntent Custom Fields in Hubspot',
+                href: 'img/monitorintentcontacts (2).png',
+                type: 'image/png',
+            },
+
+             {
+                title: 'MonitorIntent Custom Fields in Hubspot',
+                href: 'img/monitorintentcontacts (3).png',
+                type: 'image/png',
+            },
             
             
         {
@@ -90,12 +111,6 @@ $(function() {
         {
             title: 'Payment Processing with Stripe',
             href: 'img/paymentprocessing.png',
-            type: 'image/png',
-        },
-
-         {
-            title: 'Registration Page',
-            href: 'img/login page.png',
             type: 'image/png',
         }
 
