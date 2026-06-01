@@ -32,19 +32,19 @@ $(function() {
             type: 'image/png',
         },
         {
-            title: 'Demonstration on styled object drawing',
+            title: 'Demonstration on stylized object drawing',
             href: 'img/artlingo(3).png',
             type: 'image/png',
         },
 
         {
-            title: 'Demonstration on styled portrait drawing',
+            title: 'Demonstration on stylized portrait drawing',
             href: 'img/artlingo(5).png',
             type: 'image/png',
         },
 
         {
-            title: 'Model prediction grid based on artist vote',
+            title: 'Model prediction grid based on artist votes',
             href: 'img/artlingo(4).png',
             type: 'image/png',
         }
